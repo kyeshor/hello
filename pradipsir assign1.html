@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>   
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form action="/actionpage.php" autocomplete="on" font-size=30px;>
+        <h1>Novell Services Login</h1>
+       
+    <label for="fname" > User name:</label>
+    <input type="text" id="fname" name="firstname"  required/><br> 
+
+    <label for="pw">Password:</label>
+        <input type="password" id="pw" > <br>   
+    <label for="coe" >       city of employment:</label>
+    <input type="text" id="coe" name="coe" size="40"  /><br>
+    
+    <label for="web">Web server:</label>
+    <select name="web server" id="web" value="--choose a server--">
+    <option value="chooose">--choose a server-- </option>
+    <option value="apache http">apache http> </option>
+</select><br><br>
+    <label for="radios">please specify your role:</label>
+
+    <label for="a">admin</label>
+    <input type="radio" id="a"><br>
+    
+    <label for="a">engineer</label>
+    <input type="radio" id="a" name="engineer" value="engineer"><br>
+
+    <label for="a">manager</label>
+    <input type="radio" id="a" name="manager" value="manager"><br>
+
+    <label for="a">guest</label>
+    <input type="radio" id="a" name="guest" value="guest"><br><br>
+
+    <label for="b">single sign-on to the folllowing:</label>
+    <label for="c">Mail</label>
+    <input type="checkbox" id="c" value="Mail"><br>
+
+    <label for="d">Payroll</label>
+    <input type="checkbox" id="d" value="Payroll"><br>
+
+    <label for="e">Self-Service</label>
+    <input type="checkbox" id="e" value="Self service"><br><br>
+
+    
+    <input type="button" id="q" value="Login">
+    
+     <input type="reset">
+
+ 
+</form>
+</body>
+</html>

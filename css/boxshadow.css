@@ -1,0 +1,21 @@
+*{
+    background-color: green;
+}
+.main-div{
+    margin: 10px;
+    width:700px ;
+    box-shadow: gray 0px 0px 10px ;
+    
+}
+.sec-div{
+    margin: 10px;
+    width:700px ;
+    box-shadow: gray 0px 0px 10px ;
+    
+}
+.thd-div{
+    margin: 10px;
+    width:700px ;
+    box-shadow: gray 0px 0px 10px ;
+    
+}

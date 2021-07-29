@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.first,.second,.third{
+    display: inline-block;
+    height: 500px;
+    width: 150px;
+}
+.first{
+   
+    background-color:rgb(58, 24, 112);
+    position: relative;
+}
+.second{
+    
+ position: relative;
+    background-color: rgb(47, 255, 220);
+    
+}
+.third{
+    position:relative;
+    background-color:rgb(184, 26, 113);
+}
+.fourth{
+    position: fixed;
+    background-color:black; 
+    color: blanchedalmond;
+     padding: 10px; 
+     border: 5px;
+      width: 70px;
+      left:90%;
+      top:90%;
+      
+}
+.fourth:hover{
+    background-position: left;
+}

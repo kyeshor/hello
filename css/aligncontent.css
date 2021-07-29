@@ -1,0 +1,18 @@
+.parent {
+    background-color: slateblue;
+    display: flex;
+    height: 100vh;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: center;
+}
+.child{
+    
+    background-color: skyblue;
+    height: 40px;
+    width:200px;
+    margin:10px;
+    padding: 10px;
+    text-align: center;
+
+}

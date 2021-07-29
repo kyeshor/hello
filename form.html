@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration page </title>
+</head>
+<body>
+    <form action="/actionpage.php" style="background-color: #87CEFA;" validate>
+        
+      
+    <label for="fname" > First Name:</label>
+    <input type="text" id="fname" name="firstname"  required/><br><br>
+
+    <label for="ad" >Middle Name</label>
+    <input type="text" id="ad" name="middle name" ><br><br>
+    <label for="lm " >Last Name</label>
+    <input type="text" id="lm" name="Last name" ><br><br>
+    <!-- <label for="zp">address:</label>
+<input type="text" id="zp" ><br><br> -->
+</select>
+<label for="ctg">Course</label>
+<select name="Course" id="ctg" >
+    <option value="Ethical hacking">Bsc hons Ethical hacking and cyber security</option>
+    <option value="computing">Bsc hons computing</option>
+    <option value="BBS">BBS</option>
+    <option value="BCA"  >BCA</option>
+    <option value="MBBS">MBBS</option>
+  
+
+    
+</select>   <br><br>
+
+    <label for="sex">Gender*:   </label><br>
+    <label for="sex">MALE</label>
+    <input type="radio" id="sex" name="gender" value="MALE"><br>
+    <label for="sex">FEMALE</label>
+    <input type="radio" id="sex" name="gender" value="FEMALE"><br>
+    <label for="sex">Others</label>
+    <input type="radio" id="sex" name=gender value="Others"><br><br>
+
+   
+    <label for="ph">Phone*</label>
+    <input type="text" id="ph" name="number" value="+977" size="3">
+    <input type="number" id="ph" name="phone number" required><br><br>
+
+    <label for="aad">Address: </label><br>
+    <textarea rows="5" cols="80" id="aad"></textarea><br>
+
+    <label for="pesa">Email*</label>
+    <input type="email" id="pesa" name="email"><br><br>
+
+    <label for="pwd">Password:</label>
+    <input type="password" id="pwd" name="pwd" minlength="6"> <br><br>
+
+    <label for="pawd">Re-type password:</label>
+    <input type="password" id="pawd" name="pawd" minlength="6" ><br><br>
+
+    <input type="submit" value="submit">
+</form>
+</body>
+</html>

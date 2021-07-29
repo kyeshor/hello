@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul li{
+    
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px;
+
+}
+ul{
+    background-color: black;
+    
+}
+li{
+    color: honeydew;
+}
+.sticky{
+    position: sticky;
+    top: 0;
+}
+
