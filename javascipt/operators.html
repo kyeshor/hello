@@ -5,8 +5,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style> .akash{font-size: xx-large;
+    background-color: aqua;</style>
 </head>
 <body>
+    <img id="myimage" src="../image/419443.jpg" width="600" />
+<button id="btnchange" onmouseover="changeImage()">click</button>
+<div>
+    <p id="para1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci accusantium ex vero ea praesentium animi! Unde assumenda iusto officiis quos, asperiores expedita similique voluptatibus, ex, fugit hic cumque vel totam.
+Consectetur nobis totam atque, labore beatae dolore accusamus asperiores reiciendis eaque eligendi debitis rerum? Error delectus cum nobis sed deserunt, repellat at, accusamus culpa distinctio ut odio similique fugiat repudiandae?
+Aliquid modi ipsam odit eligendi quo blanditiis architecto saepe fuga. Nemo culpa blanditiis ab impedit quae voluptates a earum in ut consequatur, quam laboriosam quas inventore quos delectus maxime quod!
+Esse recusandae dolore obcaecati aliquam atque dolores adipisci, eius assumenda quo sapiente, voluptatibus nihil vitae? Officia error maiores dolore earum, beatae, quisquam nostrum fugit animi saepe eligendi laborum, fuga obcaecati.
+Magni, adipisci. Alias, dolores odit exercitationem deleniti nobis nemo sunt accusamus suscipit aut ad voluptates sed dolore minus neque id incidunt expedita illum! Id, neque hic nihil animi autem atque.
+A distinctio unde consequatur rerum voluptates, maiores nobis amet ex alias? Corporis vero harum impedit itaque nostrum saepe rem qui ipsam recusandae, necessitatibus reprehenderit, quasi nihil aliquam maiores soluta facere.
+Cumque eum atque, non qui iure modi tenetur nesciunt reprehenderit provident ab molestias, repellat adipisci laborum totam porro. Dolore vel libero ad consequatur, nostrum qui quis adipisci repellendus amet officia?
+Fuga eligendi id, natus libero enim saepe odit magnam provident officia quaerat non nemo necessitatibus aliquam odio eum, magni autem repellat ab vitae iusto recusandae atque adipisci deleniti! Aliquid, nostrum.
+Ducimus perferendis at inventore illum consequuntur sunt voluptas eos? In corporis blanditiis illum, magni possimus nemo iusto! Vel quasi beatae animi quod, tempora ea facere id. Numquam magni veniam sequi.
+Alias enim architecto aut similique perferendis. Asperiores dolore provident voluptas itaque beatae eius sed debitis sapiente a commodi. Impedit enim excepturi iure eaque ut ea maxime perferendis a magnam repudiandae?</p></div>
+<input type="text" ondblclick="keyDown()" id="fisrstname"/>
+<input type="text" onchange="change(this.value)" id="lastname">
+<button id="first" ondblclick="addclass()">add class</button>
+<button id="second" onmousemove="removeclass() ">remove class</button>
+    <script>
+    function changeImage(){
+        document.getElementById("myimage").src="../image/shika.jpg";
+        document.getElementById("myimage").style.border="5px solid red";
+
+    }
+    function addclass(){
+        document.getElementById("para1").classList.add("akash")
+        
+    }
+    function removeclass(){
+        document.getElementById("para1").classList.remove("akash")
+    }
+    function keyDown(){
+        alert("keyDown")
+    }
+    function change(val){
+        alert("you entered "+val);
+
+    }
+</script>
     <script src="operator.js"></script>
 </body>
 </html>

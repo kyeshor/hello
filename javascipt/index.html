@@ -8,7 +8,16 @@
     
 </head>
 <body>
-    
+    <button id="btn1" onclick="myfunction()">click me</button>
+    <p id="para1"></p>
+    <p class="para2">there</p>
+    <p class="para2">hello</p>
     <script src="script.js"></script>
+    <script>
+        document.getElementById("para1").innerHTML="content";
+        var x =document.getElementsByClassName("para2");
+        var y= document.getElementsByTagName("p");
+        var z= document.querySelector(".para2"); z.innerHTML="javascript";
+    </script>
 </body>
 </html>
